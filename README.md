@@ -19,35 +19,35 @@ jsonrpc-c_pc.tar.bz2 json-rpc_test libev_pc.tar.bz2
 <br>
 1. 编译 libev 库
 操作命令如下：
-$ tar xjf libev_pc.tar.bz2
-$ cd libev_pc/
-$ CC=gcc ./configure --prefix=$PWD/tmp
-$ make -j 16
-$ make install
-$ ls tmp/
-include lib share
-$ sudo cp -rf tmp/include/* /usr/include/
-$ sudo cp -rfd tmp/lib/* /usr/lib
-
-2. 编译 jsonrpc 库
-操作命令如下：
-$ sudo apt install libtool
-$ tar xjf jsonrpc-c_pc.tar.bz2
-$ cd jsonrpc-c_pc/
-$ autoreconf -i
-$ CC=gcc ./configure --prefix=$PWD/tmp
-$ make -j 16
-$ make install
-$ ls tmp/
-include lib
-$ sudo cp -rf tmp/include/* /usr/include/
-$ sudo cp -rfd tmp/lib/* /usr/lib
-
-3. 编译测试程序
-操作命令如下：
-$ cd json-rpc_test/
-$ make
-
+$ tar xjf libev_pc.tar.bz2 <br>
+$ cd libev_pc/ <br>
+$ CC=gcc ./configure --prefix=$PWD/tmp <br>
+$ make -j 16 <br>
+$ make install <br>
+$ ls tmp/ <br>
+include lib share <br>
+$ sudo cp -rf tmp/include/* /usr/include/ <br>
+$ sudo cp -rfd tmp/lib/* /usr/lib <br>
+<br>
+2. 编译 jsonrpc 库 <br>
+操作命令如下： <br>
+$ sudo apt install libtool <br>
+$ tar xjf jsonrpc-c_pc.tar.bz2 <br>
+$ cd jsonrpc-c_pc/ <br>
+$ autoreconf -i <br>
+$ CC=gcc ./configure --prefix=$PWD/tmp <br>
+$ make -j 16 <br>
+$ make install <br>
+$ ls tmp/ <br>
+include lib <br>
+$ sudo cp -rf tmp/include/* /usr/include/ <br>
+$ sudo cp -rfd tmp/lib/* /usr/lib <br>
+<br>
+3. 编译测试程序 <br>
+操作命令如下： <br>
+$ cd json-rpc_test/ <br>
+$ make <br>
+<br>
 example:
 <img width="754" height="266" alt="Screenshot 2025-07-15 212120" src="https://github.com/user-attachments/assets/f86634b5-210b-40a2-b717-fe5871855477" />
 
