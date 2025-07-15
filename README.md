@@ -14,8 +14,8 @@ Usage:
 在 Ubuntu 中做实验。先编译 libev 库，再编译 jsonrpc 库，最后编译、执行测试
 程序 json-rpc_test。
 假设这 3 个文件放在同一个目录下：
-$ ls
-jsonrpc-c_pc.tar.bz2 json-rpc_test libev_pc.tar.bz2
+$ ls <br>
+jsonrpc-c_pc.tar.bz2 json-rpc_test libev_pc.tar.bz2 <br>
 <br>
 1. 编译 libev 库
 操作命令如下：
