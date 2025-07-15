@@ -26,8 +26,7 @@ $ make -j 16 <br>
 $ make install <br>
 $ ls tmp/ <br>
 include lib share <br>
-$ sudo cp -rf tmp/include/* /usr/include/ <br>
-$ sudo cp -rfd tmp/lib/* /usr/lib <br>
+
 
 2. 编译 jsonrpc 库 <br>
 操作命令如下： <br>
@@ -40,8 +39,7 @@ $ make -j 16 <br>
 $ make install <br>
 $ ls tmp/ <br>
 include lib <br>
-$ sudo cp -rf tmp/include/* /usr/include/ <br>
-$ sudo cp -rfd tmp/lib/* /usr/lib <br>
+
 
 3. 编译测试程序 <br>
 操作命令如下： <br>
