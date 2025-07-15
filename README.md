@@ -28,8 +28,8 @@ $ ls tmp/ <br>
 include lib share <br>
 $ sudo cp -rf tmp/include/* /usr/include/ <br>
 $ sudo cp -rfd tmp/lib/* /usr/lib <br>
-<br>
 2. 编译 jsonrpc 库 <br>
+
 操作命令如下： <br>
 $ sudo apt install libtool <br>
 $ tar xjf jsonrpc-c_pc.tar.bz2 <br>
