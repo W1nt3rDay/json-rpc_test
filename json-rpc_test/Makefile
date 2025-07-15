@@ -1,9 +1,9 @@
 TARGET=rpc
 CC=gcc
 
-TOP_DIR=$(shell pwd)/
-LIBEV_DIR=${TOP_DIR}/libev_pc/tmp/
-JSONRPC_DIR=${TOP_DIR}/jsonrpc-c_pc/tmp/
+TOP_DIR=$(shell pwd)/../
+LIBEV_DIR=${TOP_DIR}/libev_pc/tmp
+JSONRPC_DIR=${TOP_DIR}/jsonrpc-c_pc/tmp
 
 CFLAGS=-I${LIBEV_DIR}/include -I${JSONRPC_DIR}/include
 LDFLAGS=${JSONRPC_DIR}/lib/libjsonrpcc.a  ${LIBEV_DIR}/lib/libev.a
