@@ -42,7 +42,7 @@ $ ls tmp/ <br>
 include lib <br>
 $ sudo cp -rf tmp/include/* /usr/include/ <br>
 $ sudo cp -rfd tmp/lib/* /usr/lib <br>
-<br>
+
 3. 编译测试程序 <br>
 操作命令如下： <br>
 $ cd json-rpc_test/ <br>
