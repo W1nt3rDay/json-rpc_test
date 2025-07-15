@@ -1,7 +1,7 @@
 TARGET=rpc
 CC=gcc
 
-TOP_DIR=$(shell pwd)/../
+TOP_DIR=$(shell pwd)/
 LIBEV_DIR=${TOP_DIR}/libev_pc/tmp/
 JSONRPC_DIR=${TOP_DIR}/jsonrpc-c_pc/tmp/
 
